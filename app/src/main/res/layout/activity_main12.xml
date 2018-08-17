@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thuo.nexthome.Main12Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="match_parent"
+            android:layout_height="305dp"
+            app:srcCompat="@drawable/za" />
+
+        <TextView
+            android:id="@+id/textView75"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="ABOUT THIS PROPERTY"
+            android:textColor="#19266f"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:text="SAMAR RESIDENCY is ideally located in Nairobi's upmarket Westlands suburb, situated on the very popular General Mathenge Drive. "
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:text="The development is well positioned offering easy access to major schools, shopping centers, and health facilities, and the project combines tasteful design and modern conveniences."
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView78"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="Propert price:  KSh 27,500,000"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Call to Book" />
+    </LinearLayout>
+
+</ScrollView>

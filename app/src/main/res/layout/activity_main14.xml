@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thuo.nexthome.Main14Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="match_parent"
+            android:layout_height="277dp"
+            app:srcCompat="@drawable/ta" />
+
+        <TextView
+            android:id="@+id/textView79"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="ABOUT THIS PROPERTY"
+            android:textColor="#151775"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView88"
+            android:layout_width="match_parent"
+            android:layout_height="192dp"
+            android:text=" The development is well positioned offering easy access to major schools, shopping centers, and health facilities, and the project combines tasteful design and modern conveniences. In addition to the very spacious apartment design, the property is situated in a well-secured environment. "
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView89"
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:text="These apartments are well laid out and offer an amazing opportunity for both living and investment making it a great opportunity to earn rental income from both young families and older couples seeking convenience."
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView90"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="Property price: KSh 15,200,000"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Call to Book" />
+    </LinearLayout>
+
+</ScrollView>

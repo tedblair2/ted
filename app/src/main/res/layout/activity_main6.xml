@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thuo.nexthome.Main6Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="384dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ff" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="ABOUT THIS PROPERTY"
+            android:textColor="#091256"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:text="This is one of a few flats I have in the South B Area which is just 6 km to the Nairobi City Center. Transport is readily available through taxi just a minutes walk from the property or by UBER. Public transport is about 5 minutes walk from the property."
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The sitting room is spacious and opens up to a large balcony. The kitchen is fully fitted with all equipment and cutlery. The master bedroom is en-suite and the 2nd bedroom has two single beds."
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="Wi Fi is available."
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rent:Ksh.28,000."
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Call to book" />
+    </LinearLayout>
+
+</ScrollView>

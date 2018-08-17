@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thuo.nexthome.Main13Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="match_parent"
+            android:layout_height="267dp"
+            app:srcCompat="@drawable/ya" />
+
+        <TextView
+            android:id="@+id/textView80"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="ABOUT THIS PROPERTY"
+            android:textColor="#0e1166"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView81"
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            android:text="Silver harbor comprises standard 2 and 3 bedroom apartments, 2 and 3 bedroom all en-suit, 2 bedroom with sq, and 6 duplex units that occupy the 13th+ 1floor. We have five blocks. Block A,B,C,D,E. "
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text=" We offer amenities that include: "
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView83"
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:text=" an indoor playing area which means your children can play comfortably even when the weather isn’t so good. We will have a sliding set, some balls, small chairs and tables for them to sit and share stories"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView84"
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
+            android:text=" We have a large indoor swimming pool that is 4.8m (those are 2 Olympic lanes) wide and 17m long accompanied with its changing rooms"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView85"
+            android:layout_width="match_parent"
+            android:layout_height="233dp"
+            android:text=" We have solar heating system, forget the boilers used that eat up your electricity only for you to boil 40 liters yet you need less. Our system will enable you have hot water flowing within the first 2 minutes when you open your shower. The weather is dull and no sunshine anymore? Don’t worry, the system adopts a technology called air source pump which uses air pressure to heat the water when there’s no sun. "
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView86"
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:text="  We know that security is key so we have several measures that we have taken to ensure that that includes: CCTV cameras round the premises, Electric fence and access control systems"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView87"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="Property Price:  KSh 12,000,000"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Call to Book" />
+    </LinearLayout>
+
+</ScrollView>

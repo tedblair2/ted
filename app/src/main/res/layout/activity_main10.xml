@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thuo.nexthome.Main10Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="422dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/hd" />
+
+        <TextView
+            android:id="@+id/textView64"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="ABOUT THIS PROPERTY"
+            android:textColor="#11206b"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView65"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:text="Chrystal luxury apartments are luxury apartments with a stylish design,craftsmanship and attention to detail."
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:text="they are 1 and 2 bedroom apartments which are master en suite. "
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:text="each unit is characterized by the following features:   large living room   open plan fitted kitchen   in built warddrobes   visitors cloakroom"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView68"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="featured also include :intercom services ,internet connections ports and cctv cameras.   solar water heater and backup lighting available.   granite tops ,hardwood timber,aluminium windows,high end tiles and gypsum conices"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView69"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="prices: 1 bedroom 9.5m 2 bedroom 13.5m"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Call to Book" />
+    </LinearLayout>
+
+</ScrollView>

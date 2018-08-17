@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thuo.nexthome.Main5Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="394dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ea" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="ABOUT THIS PROPERTY"
+            android:textColor="#0a2273"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:text="This is one of several apartments I have in the South B area. The Sitting area is comfortable and gives access to a large balcony overlooking a quiet street. The kitchen is fully fitted with all equipment and cutlery to serve 4 persons. The Master bedroom is en-suite while the second bedroom has two single beds. WiFi is available."
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="Rent:Ksh.28,000."
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Call to book" />
+    </LinearLayout>
+
+</ScrollView>

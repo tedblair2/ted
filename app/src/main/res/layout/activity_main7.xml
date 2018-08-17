@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thuo.nexthome.Main7Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ga" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="ABOUT THIS PROPERTY"
+            android:textColor="#0a1154"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="match_parent"
+            android:layout_height="261dp"
+            android:text="Experience Nairobi's hustle and bustle in this quiet 3 bedroom townhouse where the beds are comfortable, bathrooms are clean, the water supply is reliable, and the host is helpful and friendly. This townhouse is situated off Mombasa Road, and just about a 15 minute car ride from Jomo Kenyatta International Airport. Every morning, dozens of bright and cheerful matatus will be at your doorstep beckoning you to ride to Nairobi's downtown for less than $1. Private Taxi services are also available."
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:text="This well maintained and comfortably furnished 3 bedroom townhouse with free unlimited internet is situated in a gated community within a secure compound and is a 5 minute drive to Capital Center Mall, Navis Supermarket, Kentucky Fried Chicken Restaurant, and the Mater Hospital. Features include: Master en-suite with a lovely queen size bed."
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rent:Ksh 30,000"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Call to book" />
+    </LinearLayout>
+
+</ScrollView>

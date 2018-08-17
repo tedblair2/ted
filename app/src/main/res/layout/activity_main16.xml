@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thuo.nexthome.Main16Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="match_parent"
+            android:layout_height="222dp"
+            app:srcCompat="@drawable/qa" />
+
+        <TextView
+            android:id="@+id/textView96"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="ABOUT THIS PROPERTY"
+            android:textColor="#192d6f"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView97"
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            android:text="A residence so rare, it shall be graced only by the lucky few!  your 3 bedroom all en-suite spacious residence at kings sherwood is meticulously planned to optimize space, as well as provide for all your needs. With world class finishes, the residence features well planned layout with maximum light and ventilation flow. The kings sherwood is truly a rare privilege."
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:text="kes 19,000,000/- payment upon signing letter of offer. Kes 19,000,000/- 20% deposit + balance to be paid on monthly basis within 6 months kes 24,000,000/- 20% deposit + balance to be on mortgage payment"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Call to Book" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thuo.nexthome.BarakaEstate">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="202dp"
+        app:srcCompat="@drawable/aa" />
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="ABOUT THIS PROPERTY"
+            android:textColor="#101765"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="256dp"
+            android:text="We cater for for large groups and families travelling together by providing an environment of comfort and safety in a friendlly and pleasant homely setting. Baraka apartments is ideal for unwinding and relaxing as we are close to Karen and yet far from the noises of the city. Our grounds are well manicured and ideal for small parties outdoors. We have catered to chama groups, corporate groups and families looking for a neutral place to meet and enjoy their companions."
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:text="The apartment is fully furnished with a hot shower system,Wifi,a back up generator and security."
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rent:Ksh 25,000"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/black" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Call to book" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

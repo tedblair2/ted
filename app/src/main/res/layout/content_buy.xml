@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.thuo.nexthome.Buy"
+    tools:showIn="@layout/app_bar_buy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view9"
+            android:layout_width="360dp"
+            android:layout_height="180dp">
+
+
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:id="@+id/slidebars9"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|clip_horizontal">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:text=" Mitini Scapes Apartments for Sale."
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="3 bedrooms|3 bathrooms"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="More Information" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/black" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view10"
+            android:layout_width="360dp"
+            android:layout_height="180dp">
+
+
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:id="@+id/slidebars10"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|clip_horizontal">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:text=" Chrystal, Luxury Apartments"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="2 bedrooms,2 bathrooms"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="More Information" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/black" />
+
+        <android.support.v4.view.ViewPager
+    android:id="@+id/view11"
+    android:layout_width="360dp"
+    android:layout_height="180dp">
+
+
+</android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/slidebars11"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|clip_horizontal">
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:text="Lakeview Heights Apartments"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="2 Bedroom Apartments for Sale"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="More Information" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/black" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view12"
+        android:layout_width="360dp"
+        android:layout_height="180dp">
+
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/slidebars12"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|clip_horizontal">
+
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:text="SAMAR RESIDENCY "
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text=" 3 Bedroom Apartment"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="More Information" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/black" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view13"
+            android:layout_width="360dp"
+            android:layout_height="180dp">
+
+
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:id="@+id/slidebars13"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|clip_horizontal">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:text="SILVER HARBOR:"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="2 bedroom for sale"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button14"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="More Information" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/black" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view14"
+            android:layout_width="360dp"
+            android:layout_height="180dp">
+
+
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:id="@+id/slidebars14"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|clip_horizontal">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:text="KAI HEIGHTS"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text=" 2 Bedroom Apartments"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button15"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="More Information" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/black" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view15"
+            android:layout_width="360dp"
+            android:layout_height="180dp">
+
+
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:id="@+id/slidebars15"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|clip_horizontal">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:text=" Kings Sherwood"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="3 BR Spacious Apartment"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button18"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="More Information" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/black" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view16"
+            android:layout_width="360dp"
+            android:layout_height="180dp">
+
+
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:id="@+id/slidebars16"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|clip_horizontal">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:text=" Kings Sherwood Apartments for sale"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="3 bedroom apartment with balcony"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button32"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="More Information" />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            android:background="@android:color/black" />
+
+</LinearLayout>
+
+</ScrollView>
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thuo.nexthome.Main9Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="match_parent"
+            android:layout_height="222dp"
+            app:srcCompat="@drawable/nb" />
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="ABOUT THIS PROPERTY"
+            android:textColor="#1a3079"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:text="Nested in the scenic Migaa Golf Estate are the breathtaking Mitini Scapes apartments giving you Country living with proximity to the city. These premier 1 and 2 bedroom apartments offer unmatched modern finishes coupled with amazing unimpeded views of the neighboring coffee estates. "
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="match_parent"
+            android:layout_height="153dp"
+            android:text="Your Mitini Scapes home features: a spacious Living room, a modern kitchen area, a laundry area, paved drive ways, adequate parking space for both residents and visitors, lush gardens, and so much more, giving you luxury living at its very best. "
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Property Price:KSh 12,000,000"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Call to Book" />
+    </LinearLayout>
+
+</ScrollView>

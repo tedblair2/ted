@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thuo.nexthome.Main11Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            app:srcCompat="@drawable/ma" />
+
+        <TextView
+            android:id="@+id/textView70"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="ABOUT THIS PROPERTY"
+            android:textColor="#181f70"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="match_parent"
+            android:layout_height="226dp"
+            android:text="Lakeview Heights Apartments is a scenic development in Naka Estate, near Lake Nakuru  and situated in the fastest growing town in Kenya. Lakeview Heights is more than just  about the house: it offers the thrill of a modern lifestyle- with the serenity of nature, and at  an affordable price; making it the ultimate investment for the discerning investor, and a  reality for home ownership."
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:text=" Lakeview Heights is affordable; at a competitive price- making home ownership a reality, and a  great way to secure your future."
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            android:text="Interior finishes include:Master Bedroom with en-suite Bathroom,separate shower and cloakroom,open-plan Lounge and dining room with panoramic balcony,Kitchen with terrace and laundry area,Fitted kitchens with granite tops and built in cupboards,All round ceramic tile floors,Imported security main doors,Tiled washrooms with quality imported sanitary ware,built in wardrobes with ample storage space"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="Property price:KSh 4,500,000"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Call to Book" />
+    </LinearLayout>
+
+</ScrollView>
